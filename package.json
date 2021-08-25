@@ -1,12 +1,12 @@
 {
-  "name": "initial_build",
+  "name": "kwork_juristconsalt",
   "version": "1.0.0",
   "description": "initial build for new projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Sopel",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.5",
@@ -24,5 +24,14 @@
   },
   "browserslist": [
     "last 10 version"
-  ]
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sopel1996/kwork_juristConsalt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sopel1996/kwork_juristConsalt/issues"
+  },
+  "homepage": "https://github.com/sopel1996/kwork_juristConsalt#readme"
 }
