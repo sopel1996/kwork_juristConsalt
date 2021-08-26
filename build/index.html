@@ -6,6 +6,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="preload" href="img/png/formBg.png" as="image">
+   <link rel="preload" href="img/svg/bgFirstSection.svg" as="image">
    <title>ЮРКОНСАЛТ</title>
 </head>
 
@@ -21,9 +23,10 @@
                и постоянно ждать зарплаты? Чего
                ты ждешь? Оставь заявку!
             </p>
-            <button class="btn">
+            <a href="#form"><button class="btn">
                Оставить заявку
             </button>
+         </a>
             <div class="social">
                <a href="#" class="social-item _margin20"><img src="img/svg/whatsappIcon.svg" alt="Whatsapp"
                      class="_wh36"></a>
@@ -32,7 +35,32 @@
             </div>
          </div>
          <div class="sectionFirst_conditions">
-            <div class="sectionFirst_conditions-items"></div>
+            <div class="sectionFirst_conditions-items">
+               <ul>
+                  <li>
+                     <div>
+                        Получай зарплату каждую неделю
+                     </div>
+                  </li>
+                  <li>
+                     <div>
+                        Работай там, где тебе удобно
+                     </div>
+                  </li>
+                  <li>
+                     <div>
+                        Развивайся
+                        и зарабатывай больше
+                     </div>
+                  </li>
+                  <li>
+                     <div>
+                        Никаких вложений
+                        с твоей стороны
+                     </div>
+                  </li>
+               </ul>
+            </div>
          </div>
       </div>
    </section>
@@ -233,7 +261,7 @@
                </li>
             </ul>
          </div>
-         <form action="" class="sectionForm_form">
+         <form action="" class="sectionForm_form" id="form">
             <div class="social">
                <a href="#" class="social-item _margin20"><img src="img/svg/whatsappIcon.svg" alt="Whatsapp"
                      class="_wh24"></a>
