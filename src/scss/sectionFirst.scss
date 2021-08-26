@@ -1,0 +1,44 @@
+.sectionFirst{
+    height: toRem(520);
+    background: #F0F0F0 url(../img/svg/bgFirstSection.svg) calc(50% - 175px) no-repeat;
+    margin-bottom: toRem(95);
+    .sectionInner{
+        height: 555px;
+        position: relative;
+        padding-top: toRem(80);
+        
+    }
+    &_text{
+        &-title{
+            @include RalewayBold(48);
+            color: $primary-color-text;
+            margin-bottom: toRem(40);
+            width: toRem(761);
+        }
+        &-item{
+            @include RobotoRegular(24);
+            color: $primary-color-text;
+            margin-bottom: toRem(50);
+            width: toRem(525);
+        }
+        .btn{
+            margin-bottom: toRem(10);
+        }
+    }
+    &_conditions{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: toRem(555);
+        width: toRem(780);
+        background: transparent url(../img/png/womanImg.png) 80% 50% no-repeat;
+        &-items{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: toRem(130);
+            width: toRem(780);
+            background-color: $primary-color;
+        }
+    }
+}
