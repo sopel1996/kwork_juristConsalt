@@ -23,7 +23,7 @@
         align-items: center;
         justify-content: space-evenly;
     }
-    .sectionForm_text{
+    &_text{
         width: toRem(540);
         &-title{
             width: 70%;
@@ -42,7 +42,7 @@
             }
         }
     }
-    .sectionForm_form{
+    &_form{
         width: toRem(360);
         height: toRem(260);
         padding: toRem(30);
@@ -51,10 +51,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        .sectionForm_social{
-            .sectionForm_social-item{}
-        }
-        .sectionForm_form-tel{
+      
+        &-tel{
             @include RalewayMedium(18);
             width: 100%;
             border: none;
@@ -62,7 +60,7 @@
             color: $primary-color;
             border-bottom: 2px solid $primary-color;
         }
-        .sectionForm_form-text{
+        &-text{
             @include RalewayMedium(18);
             color: $primary-color;
         }
